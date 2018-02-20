@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  team1: 1
+  team2: 
+  date_game: 2018-02-19 11:32:39
+  gol1: 1
+  gol2: 1
+
+two:
+  team1: 1
+  team2: 
+  date_game: 2018-02-19 11:32:39
+  gol1: 1
+  gol2: 1

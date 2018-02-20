@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @team.name %>
+</p>
+
+<p>
+  <strong>Group:</strong>
+  <%= @team.group %>
+</p>
+
+<p>
+  <strong>Flag:</strong>
+  <td><%= link_to( image_tag(@team.flag, height: '50', width: '50') , @team.flag) %></td>
+</p>
+
+<p>
+  <strong>Points:</strong>
+  <%= @team.points %>
+</p>
+
+<p>
+  <strong>Actual phase:</strong>
+  <%= @team.actual_phase %>
+</p>
+
+<p>
+  <strong>Gf:</strong>
+  <%= @team.gf %>
+</p>
+
+<p>
+  <strong>Gc:</strong>
+  <%= @team.gc %>
+</p>
+
+<p>
+  <strong>Gd:</strong>
+  <%= @team.gd %>
+</p>
+
+<%= link_to 'Edit', edit_team_path(@team) %> |
+<%= link_to 'Back', teams_path %>
